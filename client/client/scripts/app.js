@@ -72,7 +72,7 @@ var app = {
 
         var mostRecentMessage = data.results[0];
 
-        if(mostRecentMessage.objectId !== app.lastMessageID){
+        // if(mostRecentMessage.objectId !== app.lastMessageID){
 
           
           //need to render rooms
@@ -80,7 +80,7 @@ var app = {
 
           app.lastMessageID = mostRecentMessage.objectId;
 
-        };
+        // };
 
       },
 
