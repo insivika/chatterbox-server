@@ -8,7 +8,7 @@ var handleRequest = require('./request-handler');
 
 var port = process.env.PORT || 3000;
 
-var ip = '127.0.0.1';
+var ip = 'awesome-chatterbox.herokuapp.com';
 
 var server = http.createServer(function(req, res) {  
 
