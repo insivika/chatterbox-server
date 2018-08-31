@@ -70,6 +70,6 @@ var server = http.createServer(function(req, res) {
 
 console.log('Listening on http://' + ip + ':' + port);
 
-server.listen(port, ip);
+server.listen(port);
 
 
