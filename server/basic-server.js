@@ -6,7 +6,7 @@ var url = require('url');
 
 var handleRequest = require('./request-handler');
 
-var port = 3000;
+var port = process.env.PORT || 3000;
 
 var ip = '127.0.0.1';
 
